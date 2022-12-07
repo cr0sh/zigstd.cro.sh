@@ -1,3 +1,7 @@
 name = "zigstd-cro-sh"
 main = "src/index.ts"
 compatibility_date = "2022-12-07"
+routes = [
+	{ pattern = "zigstd.cro.sh", custom_domain = true, zone_name = "cro.sh" }
+]
+
